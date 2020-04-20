@@ -1,5 +1,5 @@
 let books = document.querySelectorAll('.books'),
-    book = document.querySelectorAll('.book');
+    book = document.querySelectorAll('.book'); 
 books[0].insertBefore(book[0], book[2]);
 books[0].insertBefore(book[3], book[5]);
 books[0].appendChild(book[2]);
