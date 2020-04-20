@@ -11,7 +11,7 @@ let newTitle = document.querySelectorAll('.books h2 a');
 newTitle.forEach(function(item){
     if(item.textContent === 'Книга 3. this и Пропопипы Объектов')
         item.textContent = 'Книга 3. this и Прототипы Объектов';
-});
+}); 
 let adv = document.querySelectorAll('.adv');
 body.removeChild(adv[0]);
 
